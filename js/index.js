@@ -1,0 +1,24 @@
+let registeraccount = [];
+
+registeraccount = () => {
+    let first = document.getElementById("first").value
+    let email = document.getElementById("email").value
+    let number = +document.getElementById("number").value
+    let subject = document.getElementById("subject").value
+    let password = document.getElementById("password").value
+
+    let Newsletter = document.getElementById("newsletter").checked
+
+   
+        if(Newsletter){
+            alert("Welcome" + first + " ! " + " Thank you for your interest in " + subject + " ! " + " We will contact you via email provided :  " + " or alternatively on the phone number : " + number + "." )
+        }else{
+            alert("Well,well,well...why don't you want to sign up for our newsletter...you don't seem to that interested " + first + "!" + " if you want to sign up, you better CHECK that newsletter box! ")
+        }
+    
+
+    console.log(registeraccount)
+
+    document.getElementById("submitform").reset();
+
+}
