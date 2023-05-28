@@ -1,11 +1,11 @@
 nav{
-    background-color: grey;
+    background-color: rgb(43, 39, 39);
     height: 80px;
     margin-top: -20px;
 }
 
 .logo{
-    margin-left: px;
+    margin-left: 50px;
     margin-top: 20px;
     color: white;
 }
@@ -71,7 +71,7 @@ ul li:hover ul.dropdown{
 .move{
     float: left;
     border: none;
-    margin-left: 850px;
+    margin-left: 800px;
     margin-top: -55px;
     height: 50px;
     width: 250px;
@@ -86,7 +86,7 @@ ul li:hover ul.dropdown{
     padding-top: 10px;
     padding-left: 15px;
     color: green;
-    margin-left: 1110px;
+    margin-left: 1060px;
     margin-top: -55px;
     font-weight: bold;
 }
@@ -96,10 +96,11 @@ ul li:hover ul.dropdown{
 }
 
 header{
-    background-color: lightgray;
+    background-color: rgb(236, 217, 217);
     height: 500px;
     padding-top: 80px;
     padding-left: 400px;
+    width: 100%;
 }
 
 header h1{
@@ -114,9 +115,9 @@ header p{
 
 .line{
     width: 1100px;
-    height: 1px;
+    height: 2px;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: rgb(192, 192, 192);
     border-radius: 0.5px;
     margin-top: 30px;
 }
@@ -170,7 +171,7 @@ header h3{
     width: 380px;
     float: left;
     margin-left: 80px;
-    margin-top: 100px;
+    margin-top: -80px;
     height: 500px;
     border-radius: 5px;
 
@@ -182,7 +183,29 @@ header h3{
 
 
 .image{
-    background-color: grey;
+    background-image: url(../assets/subjects-01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: 300px;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+
+.image2{
+    background-image: url(../assets/subjects-03.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: 300px;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+
+.image3{
+    background-image: url(../assets/subjects-02.jpg);
+    background-position: center;
+    background-size: cover;
     width: 380px;
     height: 300px;
     margin-left: -15px;
@@ -222,21 +245,49 @@ header h3{
     padding-top: 10px;
 }
 
+.inform{
+    margin-left: 100px;
+}
+
+.inform h3{
+   width: 100%;
+   height: 50px;
+   margin-top: 100px;
+}
 
 .form-control{
     width: 400px;
     border-radius: 5px;
+
 }
 
-.top-check{
-    margin-top: 20px;
-    padding-top: 10px;
-}
+
 
 input{
     margin-top: 15px;
+
 }
 
 select{
     margin-top: 15px;
+}
+
+.picture h3{
+    width: 100%;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+
+.picture p{
+    width: 100%;
+    margin-left: 800px;
+}
+
+.photo{
+    background-color: grey;
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-left: 700px;
+    margin-top: 10px;
 }

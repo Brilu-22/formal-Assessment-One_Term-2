@@ -75,7 +75,7 @@
 
     <div class="container-fluid">
         <div class="col-4 card">
-            <div class="image">@</div>
+            <div class="image"></div>
             <h3>UX Design</h3>
             <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
             <div class="button2">Read More</div>
@@ -83,7 +83,7 @@
         </div>
 
         <div class="col-4 card">
-            <div class="image">@</div>
+            <div class="image2"></div>
             <h3>Development</h3>
             <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
             <div class="button3">Read More</div>
@@ -91,41 +91,51 @@
         </div>
 
         <div class="col-4 card">
-            <div class="image">@</div>
+            <div class="image3"></div>
             <h3>Product Design</h3>
             <p>Some quick example text to build on the card title and make up the bulk of the card's content</p>
             <div class="button4">Read More</div>
 
         </div>
 
-        <div class="col-6 ">
-            <form id="submitform">
+        <div class="col-6 inform">
+            <h3>.</h3>
+            <p>.</p>
+            <form>
                 <h3>Sign Up</h3>
                 <p>If you would like to register for one of our courses, use the form below</p>
                 <input type="text" class="form-control" placeholder="Name and Surname" id="first">
                 <input type="email" class="form-control" placeholder="Enter Email" id="email">
-                <input type="tel" class="form-control" placeholder="Contact Number" id="number">
+                <input type="text" class="form-control" placeholder="Contact Number" id="number">
 
-                <select class="form-control" id="subject">
-                    <options>Select A subject</options>
-                    <options>Development</options>
-                    <options>UX Design</options>
-                    <options>Product Design</options>
-                    
-                </select>
+                    <select class="form-control" id="subject">
+                        <option>Select A subject</option>
+                        <option>Development</option>
+                        <option>UX Design</option>
+                        <option>Product Design</option>
+                        
+                    </select>
 
                 <input type="password" class="form-control" placeholder="Password" id="password">
 
-                <div class="top-check">
-                    <input class="form-check-input" name="Send Me Spam Newsletter" type="checkbox" value="send Me Spam Newsletter" id="Newsletter">
-                    <label class="form-check-label" for="send Me Spam Newsletter">
+                <div class="mail-check">
+                    <input class="form-check-input" name="Send" type="checkbox" value="send" id="newsletter">
+                    <label class="form-check-label" for="newsletter">
                         Send Me Spam Newsletter
                     </label>
                 </div>
 
-                <button class="btn btn-primary" type="button" onclick="registeraccount()" >Register Account</button>    
+                <button class="btn btn-primary" type="button" onclick="addAccount()">Register Account</button>    
 
             </form>
+        </div>
+
+        <div class="col-6 picture">
+            <h3>Our Gallery</h3>
+            <p>Take a look at some of our cool stuff</p>
+            <div class="photo">#</div>
+            
+        </div>
             
 
 
