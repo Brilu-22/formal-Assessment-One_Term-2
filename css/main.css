@@ -4,6 +4,19 @@ nav{
     margin-top: -20px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+footer{
+    background-color: rgb(43, 39, 39);
+    text-align: center; 
+    margin-top: 500px;
+    height: 100px;
+    color: white;
+    padding-top: 30px;
+}
+
 .logo{
     margin-left: 50px;
     margin-top: 20px;
@@ -26,24 +39,27 @@ nav ul li{
     position: relative;
     margin-left: 20px;
     margin-top: -30px;
-    color: white;
+    color: #999d99;
 }
 
 nav li a{
     display: block;
     padding: 20px 25px;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     font-size: 17px;
 }
 
 .dropdown{
-    background-color: black;
-    float: left;
-    margin-left: 50px;
+    border: none;
+    background-color: transparent;
+    color: #999d99; 
 }
 
+.down{
+    color: red;
+}
 
 
 ul li ul.dropdown li{
@@ -92,7 +108,7 @@ ul li:hover ul.dropdown{
 }
 
 .active{
-    text-decoration: none;
+    color: white;
 }
 
 header{
@@ -100,7 +116,6 @@ header{
     height: 500px;
     padding-top: 80px;
     padding-left: 400px;
-    width: 100%;
 }
 
 header h1{
@@ -114,7 +129,7 @@ header p{
 }
 
 .line{
-    width: 1100px;
+    width: 1050px;
     height: 2px;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(192, 192, 192);
@@ -170,7 +185,7 @@ header h3{
 .card{
     width: 380px;
     float: left;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: -80px;
     height: 500px;
     border-radius: 5px;
@@ -284,7 +299,9 @@ select{
 }
 
 .photo{
-    background-color: grey;
+    background-image: url(../assets/two.jpg);
+    background-position: center;
+    background-size: cover;
     width: 500px;
     height: 350px;
     float: left;

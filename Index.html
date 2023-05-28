@@ -27,19 +27,20 @@
     </div>
     <div class="nav-con">
         <ul>
-            <li>Home</li>
-            <li>Prospectus</li>
-            <li>Academic Calendar</li>
-            <li>
-                <a href="#">Dropdown </a>
-                <ul class="dropdown">
-                    <li><a href="#">UX Design</a></li>
-                    <li><a href="#">Development</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li class="mini-line"></li>
-                    <li><a href="#">Creative Computing</a></li>
-                </ul>
-            </li>
+            <a href="Index.html"><li class="active">Home</li></a>
+            <a><li>Prospectus</li></a>
+            <a><li>Academic Calendar</li></a>
+            <a><li>Dropdown
+                <form class="down">
+                    <select class="dropdown">
+                        <option>Dropdown</div></option>
+                        <option>UX Design</div></option>
+                        <option>Development</div></option>
+                        <option>Product Design</div></option>
+                        <option>Creative Computing</div></option>
+                    </select>
+                </form>
+            </li></a>
         </ul>
 
         <form> 
@@ -119,7 +120,7 @@
                 <input type="password" class="form-control" placeholder="Password" id="password">
 
                 <div class="mail-check">
-                    <input class="form-check-input" name="Send" type="checkbox" value="send" id="newsletter">
+                    <input class="form-check-input" name="Send" type="checkbox"  id="newsletter" value="send">
                     <label class="form-check-label" for="newsletter">
                         Send Me Spam Newsletter
                     </label>
@@ -133,7 +134,7 @@
         <div class="col-6 picture">
             <h3>Our Gallery</h3>
             <p>Take a look at some of our cool stuff</p>
-            <div class="photo">#</div>
+            <div class="photo"></div>
             
         </div>
             
@@ -142,6 +143,9 @@
             
     </div>
     
+    <footer>
+        <h2>Footer</h2>
+    </footer>
     
     
 </body>

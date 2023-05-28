@@ -9,21 +9,23 @@ addAccount = () => {
 
     let newsletter = document.getElementById("Send");
 
-   
-        if(newsletter.checked){
-            register.push({
+        for(let i=0; i < newsletter.length; i++){
+            if(newsletter[i].checked){
+                register.push({
 
-                first: first,
-                email: email,
-                number: number,
-                subject: subject,
-            });
-            alert("Welcome" + first + " ! " + " Thank you for your interest in " + subject + " ! " + " We will contact you via email provided :  " + " or alternatively on the phone number : " + number + "." );
-        } else {
-            alert("Well,well,well...why don't you want to sign up for our newsletter...you don't seem to that interested " + first + "!" + " if you want to sign up, you better CHECK that newsletter box! ");
+                    first: first,
+                    email: email,
+                    number: number,
+                    subject: subject,
+                });
+                alert("Welcome" + first + " ! " + " Thank you for your interest in " + subject + " ! " + " We will contact you via email provided :  " + " or alternatively on the phone number : " + number + "." );
+            } else {
+                alert("Well,well,well...why don't you want to sign up for our newsletter...you don't seem to that interested " + first + "!" + " if you want to sign up, you better CHECK that newsletter box! ");
+            }
+        
+            console.log(register);
+
         }
-       
-        console.log(register);
-
    
 };
+
